@@ -41,5 +41,5 @@ let salida = document.getElementById("salida");
 salida.innerHTML =`
 Cantidad de personas: ${mayor.cantidadpersonas()}<br>
 Cantidad de personas mayor de edad: ${mayor.mayoredad()}<br>
-Porcentaje de personas mayor de edad: ${mayor.porsentaje()} %
+Porcentaje de personas mayor de edad: ${mayor.porsentaje().toFixed(2)} %
 `

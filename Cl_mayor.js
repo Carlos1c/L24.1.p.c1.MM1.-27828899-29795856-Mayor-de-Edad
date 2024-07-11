@@ -25,6 +25,6 @@ export default class mayores{
     }
 
     porsentaje(){
-        return (this.cantidad - this.cantidadmayor) / 0.10;
+        return (this.cantidadmayor / this.cantidad) * 100;
     }
 }
